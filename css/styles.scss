@@ -474,7 +474,7 @@ header{
         }
 
         .security-image{
-            background-image: url('../images/security.png');
+            background-image: url('./images/security.png');
             height: 270px;
             background-size: contain;
             background-repeat: no-repeat;
@@ -490,7 +490,7 @@ header{
 
 
             @include media('>=phone', '<=tablet'){
-                background-image: url('../images/securitysmall.png');
+                background-image: url('./images/securitysmall.png');
                 height: 1354px;
                 margin-bottom: -500px;
             }
