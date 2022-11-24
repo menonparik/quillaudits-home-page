@@ -1,0 +1,72 @@
+@use "variables" as *;
+
+@mixin href-style{
+    text-decoration: none;
+    color: white;
+}
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin service-headings{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: $font-medium;
+    color: $heading-color;
+}
+
+@mixin button-style{
+    background: $button-color;
+    box-shadow: $button-shadow;
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    font: inherit;
+    padding: 10px 60px;
+}
+
+@mixin info-title{
+    font-weight: $font-medium;
+    font-size: $h3-size;
+    letter-spacing: -0.7px;
+}
+
+@mixin info-style{
+    font-size: $para-size;
+    line-height: 2rem;
+}
+
+@mixin cta-button{
+    padding: 10px 60px;
+    font-size: 14px;
+    font: inherit;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF4B;
+}
+
+@mixin flex-even{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin flex-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin hover{
+     transition: scale 0.3s ease-in-out;
+     &:hover{
+         transition: scale 0.3s ease-in-out;
+         scale: 1.05;
+     }
+}
