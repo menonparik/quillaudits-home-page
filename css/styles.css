@@ -981,7 +981,7 @@ header button:hover {
   }
 }
 .faqs .faqs-info .question:after {
-  content: url("/images/downarrow.png");
+  content: url("../images/downarrow.png");
 }
 .faqs .faqs-info .answer {
   height: 0;
@@ -998,7 +998,7 @@ header button:hover {
   height: 200px;
 }
 .faqs .faqs-info .faq.active .question::after {
-  content: url("/images/uparrow.png");
+  content: url("../images/uparrow.png");
 }
 @media (max-width: 1366px) and (min-width: 1105px) {
   .faqs .faqs-info .faq {
