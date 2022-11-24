@@ -528,7 +528,7 @@ header button:hover {
   letter-spacing: -0.7px;
 }
 .services .security .security-image {
-  background-image: url("/images/security.png");
+  background-image: url("../images/security.png");
   height: 270px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -547,7 +547,7 @@ header button:hover {
 }
 @media (min-width: 360px) and (max-width: 768px) {
   .services .security .security-image {
-    background-image: url("/images/securitysmall.png");
+    background-image: url("../images/securitysmall.png");
     height: 1354px;
     margin-bottom: -500px;
   }
@@ -1142,7 +1142,7 @@ header button:hover {
   display: flex;
   justify-content: space-between;
   padding: 4rem 10rem;
-  height: auto;
+  height: 80vh;
 }
 .hashingbits .hashingbits-info {
   color: white;
@@ -1191,11 +1191,24 @@ header button:hover {
     margin-bottom: 201px;
   }
 }
-.hashingbits .mail-image .mail {
-  position: absolute;
+@media (min-width: 768px) and (max-width: 360px) {
+  .hashingbits .mail-image .backdrop {
+    margin-top: -12px;
+    margin-left: -378px;
+  }
+}
+.hashingbits .mail {
+  position: relative;
+  bottom: 84%;
+  left: 37%;
   right: 20%;
   margin-top: 70px;
   margin-right: -70px;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  .hashingbits .mail {
+    display: none;
+  }
 }
 @media (min-width: 360px) and (max-width: 767px) {
   .hashingbits {

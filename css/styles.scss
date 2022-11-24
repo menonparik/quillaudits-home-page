@@ -1009,7 +1009,7 @@ header{
     display:flex;
     justify-content: space-between;
     padding: 4rem 10rem;
-    height: auto;
+    height: 80vh;
 
     .hashingbits-info{
         color: white;
@@ -1049,21 +1049,33 @@ header{
         .backdrop{
             margin-top: -100px;
             margin-right: -100px;
+           
             @include media('>=phone', '<tablet'){
                 margin-top: -222px;
                 width: 110%;
                 margin-bottom: 201px;
-            }      
+            }
+            
+            @include media('>=tablet', '<=phone'){
+                    margin-top: -12px;
+                    margin-left: -378px;
+            }
+            }
         }
 
         .mail{
-            position: absolute;
+            position: relative;
+            bottom: 84%;
+            left: 37%;
             right: 20%;
             margin-top: 70px;
             margin-right: -70px;
+
+            @include media('>=phone', '<tablet'){
+               display: none;
+            }
         }
 
-    }
     @include media('>=phone', '<tablet'){
         padding: 1rem;
         height: 100vh;
