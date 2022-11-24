@@ -860,7 +860,7 @@ header{
         }
 
         .question:after{
-            content: url('/images/downarrow.png');
+            content: url('./images/downarrow.png');
         }
 
         .answer{
@@ -880,7 +880,7 @@ header{
                 }
 
                 .question::after{
-                    content: url('/images/uparrow.png')
+                    content: url('./images/uparrow.png')
                 }
             }
             @include media('<=desktop', '>=desktopbreak'){
