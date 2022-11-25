@@ -474,7 +474,7 @@ header{
         }
 
         .security-image{
-            background-image: url('./images/security.png');
+            background-image: url('../images/security.png');
             height: 270px;
             background-size: contain;
             background-repeat: no-repeat;
@@ -490,7 +490,7 @@ header{
 
 
             @include media('>=phone', '<=tablet'){
-                background-image: url('./images/securitysmall.png');
+                background-image: url('../images/securitysmall.png');
                 height: 1354px;
                 margin-bottom: -500px;
             }
@@ -860,7 +860,7 @@ header{
         }
 
         .question:after{
-            content: url('./images/downarrow.png');
+            content: url('../images/downarrow.png');
         }
 
         .answer{
@@ -880,7 +880,7 @@ header{
                 }
 
                 .question::after{
-                    content: url('./images/uparrow.png')
+                    content: url('../images/uparrow.png')
                 }
             }
             @include media('<=desktop', '>=desktopbreak'){
@@ -1074,12 +1074,20 @@ header{
             @include media('>=phone', '<tablet'){
                display: none;
             }
+            @include media('<=desktop', '>=desktopbreak'){
+                left: 30%;
+                bottom: 60%;
+            }
         }
 
     @include media('>=phone', '<tablet'){
         padding: 1rem;
         height: 100vh;
         flex-direction: column;
+    }
+
+    @include media('<=desktop', '>=tablet'){
+        height: auto;
     }
 }
 
