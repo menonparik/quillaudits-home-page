@@ -262,11 +262,11 @@ header button:hover {
 .add-info .info-text .info1 h1, .add-info .info-text .info2 h1, .add-info .info-text .info3 h1 {
   font-size: 50px;
   color: #2D83EE;
-  font-weight: 500;
+  font-weight: 600;
 }
 .add-info .info-text .info1 p, .add-info .info-text .info2 p, .add-info .info-text .info3 p {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   width: 37%;
   color: white;
   text-align: left;
@@ -302,13 +302,13 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   width: 10%;
 }
 .services .heading h3 {
   margin-top: -10px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   width: 18%;
 }
@@ -332,12 +332,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -40px;
 }
 .services .service-sca .sca-info h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -398,12 +398,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -35px;
 }
 .services .service-pentest .pentest-info h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -449,12 +449,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -35px;
 }
 .services .service-diligence .diligence-info h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -517,13 +517,13 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   letter-spacing: 4.8px;
   margin-bottom: -30px;
 }
 .services .security h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -549,7 +549,7 @@ header button:hover {
   .services .security .security-image {
     background-image: url("../images/securitysmall.png");
     height: 1354px;
-    margin-bottom: -500px;
+    margin-bottom: -600px;
   }
 }
 @media (max-width: 1366px) and (min-width: 1105px) {
@@ -575,11 +575,11 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
 }
 .portfolio .portfolio-container h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
   color: white;
@@ -619,7 +619,7 @@ header button:hover {
 .portfolio .reports p {
   font-size: 22px;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media (min-width: 360px) and (max-width: 1105px) {
   .portfolio .reports .arrow {
@@ -677,11 +677,11 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
 }
 .misc .misc-info h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
   width: 50%;
@@ -726,7 +726,7 @@ header button:hover {
   padding: 2rem 0.5rem;
   border-radius: 15px;
   color: #2D83EE;
-  font-weight: 500;
+  font-weight: 600;
 }
 .misc .misc-info-boxes .box1 {
   width: 70%;
@@ -795,12 +795,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -30px;
 }
 .mentions .mentions-heading h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -868,12 +868,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -30px;
 }
 .testimonials .testimonial-headings h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -943,12 +943,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -30px;
 }
 .faqs .faqs-title h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -973,7 +973,7 @@ header button:hover {
 }
 .faqs .faqs-info h4 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media (min-width: 360px) and (max-width: 767px) {
   .faqs .faqs-info h4 {
@@ -986,7 +986,7 @@ header button:hover {
 .faqs .faqs-info .answer {
   height: 0;
   overflow: hidden;
-  transition: 500ms;
+  transition: 600ms;
   overflow-y: auto;
 }
 .faqs .faqs-info .faq {
@@ -1075,12 +1075,12 @@ header button:hover {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2D83EE;
   margin-bottom: -30px;
 }
 .blog .blog-heading h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
 }
@@ -1115,7 +1115,7 @@ header button:hover {
 .blog .blog-content h4 {
   font-size: 22px;
   color: #2D83EE;
-  font-weight: 500;
+  font-weight: 600;
 }
 .blog .blog-content .blog-item {
   width: 90%;
@@ -1249,7 +1249,7 @@ header button:hover {
   width: 40%;
 }
 .apply .card .card-info h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.7px;
   color: white;
@@ -1310,7 +1310,7 @@ footer {
   color: white;
 }
 footer h4 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 22px;
 }
 footer .footer-main {
@@ -1324,7 +1324,7 @@ footer .footer-main select {
   margin-bottom: 10px;
   background-color: white;
   font: inherit;
-  font-weight: 500;
+  font-weight: 600;
 }
 footer .footer-main .company-text {
   line-height: 30px;
